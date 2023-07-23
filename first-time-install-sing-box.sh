@@ -8,8 +8,8 @@ cd /root
 rm -rf /root/reinstall-sing-box.sh*
 rm -rf /root/make-subscribe.sh*
 
-wget https://raw.githubusercontent.com/GhostOfSarina/sing-box-daily-telegram/main/reinstall-sing-box.sh
-wget https://raw.githubusercontent.com/GhostOfSarina/sing-box-daily-telegram/main/make-subscribe.sh
+wget https://raw.githubusercontent.com/smhfs/sing-box-daily-telegram/main/reinstall-sing-box.sh
+wget https://raw.githubusercontent.com/smhfs/sing-box-daily-telegram/main/make-subscribe.sh
 
 sudo chmod +x /root/reinstall-sing-box.sh
 sudo chmod +x /root/make-subscribe.sh
