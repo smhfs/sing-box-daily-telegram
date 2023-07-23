@@ -71,7 +71,7 @@ type Transport struct {
 type Setting struct {
 	Ports   []int    `json:"ports"`
 	Domains []string `json:"domains"`
-	// GRPC                []bool   `json:"grpc"`
+	GRPC                []bool   `json:"grpc"`
 	BotToken               string   `json:"bot_token"`
 	ChatID                 string   `json:"chat_id"`
 	DonateURL              string   `json:"donate_url"`
